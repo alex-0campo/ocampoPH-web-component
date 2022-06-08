@@ -44,7 +44,5 @@ if (window.matchMedia) {
   match.addEventListener('change', () => {
     toggleLightDark(match.matches, nav, navClassNames);
     toggleLightDark(match.matches, footer, footerClassNames);
-  })
-
-  
+  })  
 }
